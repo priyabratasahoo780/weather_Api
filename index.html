@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navs">
+<h3 class="weather">Wheather Api</h3>
+<div class="boths">
+<input type="text" placeholder="Search a Location" class="text">
+<button type="button" class="btn">Search</button></div>
+</div>
+
+  <div class="weather-card">
+        <div class="header">
+            <h2 class="city">Loading...</h2>
+                <h2 class="country">Country Loading...</h2>
+            <p class="date">--/--/----</p>
+        </div>
+
+        <div class="main-weather">
+            <img src="" alt="Weather Icon" class="icon">
+            <h1 class="temp">--°C</h1>
+            <p class="condition">--</p>
+        </div>
+
+        <div class="details">
+            <div class="col">
+                <span class="label">Humidity</span>
+                <span class="value humidity">--%</span>
+            </div>
+            <div class="col">
+                <span class="label">Wind</span>
+                <span class="value wind">-- kph</span>
+            </div>
+        </div>
+         <div class="details">
+            <div class="col">
+                <span class="label">Latitude</span>
+                <span class="value lat"></span>
+            </div>
+            <div class="col">
+                <span class="label">Longitude</span>
+                <span class="value lon"></span>
+            </div>
+        </div>
+         <div class="details">
+            <div class="col">
+                <span class="label">cloud</span>
+                <span class="value cloud"></span>
+            </div>
+            <div class="col">
+                <span class="label">tz_id</span>
+                <span class="value tz_id">tz_id</span>
+            </div>
+        </div>
+         <div class="details">
+            <div class="col">
+                <span class="label">wind_degree</span>
+                <span class="value wind_degree"></span>
+            </div>
+            <div class="col">
+                <span class="label">wind_mph</span>
+                <span class="value wind_mph">-- mph</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
